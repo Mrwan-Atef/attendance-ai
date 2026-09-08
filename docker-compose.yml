@@ -1,10 +1,10 @@
 services:
-  attendance-ai:
+  attendance:
     build:
       context: .
       dockerfile: Dockerfile
 
-    container_name: attendance-ai
+    container_name: attendance
 
     ports:
       - "8000:8000"
